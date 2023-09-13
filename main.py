@@ -164,8 +164,8 @@ def loop_dataset(g_list, classifier, sample_idxes, optimizer=None, bsize=cmd_arg
             pbar.set_description('MSE_loss: %0.5f MAE_loss: %0.5f' % (loss, mae) )
             total_loss.append( np.array([loss, mae]) * len(selected_idx))
         else:
-            pbar.set_description('loss: %0.5f head_acc: %0.5f med_acc: %0.5f tail_acc: %0.5f' % (loss, acc[0], acc[1], acc[2]))
-            total_loss.append(np.array([loss] + [sum(acc) / 3] + acc) * len(selected_idx))
+            pbar.set_description('loss: %0.5f head_acc: %0.5f med_acc: %0.5f tail_acc: %0.5f' % (loss, acc[1], acc[2], acc[3]))
+            total_loss.append(np.array([loss] + acc) * len(selected_idx))
 
 
         n_samples += len(selected_idx)
@@ -239,7 +239,7 @@ if __name__ == '__main__':
             #     test_loss[2] = 0.0
             print('\033[93maverage val of epoch %d: loss %.5f acc %.5f head_acc %.5f med_acc %.5f tail_acc %.5f\033[0m' % (epoch, val_loss[0], val_loss[1], val_loss[2], val_loss[3], val_loss[4]))
 
-            if best_loss > val_loss[0] and best_acc < val_loss[1]:
+            if best_acc < val_loss[1]:
                 classifier.eval()
                 test_loss = loop_dataset(test_graphs, classifier, list(range(len(test_graphs))))
                 print(
