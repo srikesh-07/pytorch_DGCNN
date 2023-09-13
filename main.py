@@ -274,7 +274,7 @@ if __name__ == '__main__':
 
     args = cmd_args
     with open("metrics.txt", "a") as txt_file:
-        txt_file.write(f"Dataset: {args.data}, \n"
+        txt_file.write(f"Dataset: {args.data} \n"
                        # f"Alpha: {args.alpha}, \n"
                        # f"Mu: {args.mu1}, \n"
                        f"Valid Mean: {round(valid_record.mean().item(), 4)} \n"
@@ -284,7 +284,7 @@ if __name__ == '__main__':
                        f"Head Mean: {round(head_record.mean().item(), 4)} \n"
                        f"Std Head Mean: {round(head_record.std().item(), 4)} \n"
                        f"Medium Mean: {round(medium_record.mean().item(), 4)} \n"
-                       f"Std Medium Mean: {round(medium_record.std().item(), 4)}, \n"
+                       f"Std Medium Mean: {round(medium_record.std().item(), 4)} \n"
                        f"Tail Mean: {round(tail_record.mean().item(), 4)} \n"
                        f"Std Tail Mean: {round(tail_record.std().item(), 4)} \n\n"
                        )
