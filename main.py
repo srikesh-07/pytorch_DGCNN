@@ -210,6 +210,8 @@ if __name__ == '__main__':
         print("Number of Test Graphs: ", len(test_graphs))
 
         best_acc = 0
+        best_val_metrics = [0, 0, 0, 0, 0]
+        best_test_metrics = [0, 0, 0, 0, 0]
 
         if cmd_args.sortpooling_k <= 1:
             num_nodes_list = sorted([g.num_nodes for g in train_graphs + test_graphs])
