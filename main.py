@@ -248,7 +248,8 @@ if __name__ == '__main__':
 
                 best_loss = val_loss[0]
                 best_acc = val_loss[1]
-                best_test_metrics = test_loss
+                if test_loss[1] > best_test_metrics[1]:
+                    best_test_metrics = test_loss
                 best_val_metrics = val_loss
 
         with open(cmd_args.data + '_acc_results.txt', 'a+') as f:
