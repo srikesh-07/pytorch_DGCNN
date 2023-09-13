@@ -92,7 +92,7 @@ class MLPClassifier(nn.Module):
             # print(f"Head ACC: {accuracy_score(head_y, head_preds)}, Medium ACC: {accuracy_score(head_y, head_preds)}, "
             #       f"Tail ACC: {accuracy_score(tail_y, tail_preds)}")
             # acc = pred.eq(y.data.view_as(pred)).cpu().sum().item() / float(y.size()[0])
-            return logits, loss, [accuracy_score(head_y, head_preds), accuracy_score(head_y, head_preds),
+            return logits, loss, [accuracy_score(head_y, head_preds), accuracy_score(med_y, med_preds),
                                   accuracy_score(tail_y, tail_preds)]
         else:
             return logits
