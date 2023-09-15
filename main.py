@@ -226,7 +226,7 @@ if __name__ == '__main__':
         optimizer = optim.Adam(classifier.parameters(), lr=cmd_args.learning_rate)
 
         train_idxes = list(range(len(train_graphs)))
-        best_loss = 1
+        best_loss = 10000000000
         for epoch in range(cmd_args.num_epochs):
             random.shuffle(train_idxes)
             classifier.train()
@@ -241,7 +241,7 @@ if __name__ == '__main__':
             #     test_loss[2] = 0.0
             print('\033[93maverage val of epoch %d: loss %.5f acc %.5f head_acc %.5f med_acc %.5f tail_acc %.5f\033[0m' % (epoch, val_loss[0], val_loss[1], val_loss[2], val_loss[3], val_loss[4]))
 
-            if best_acc < val_loss[1]:
+            if best_loss > val_loss[0] and best_acc < val_loss[1]:
                 classifier.eval()
                 test_loss = loop_dataset(test_graphs, classifier, list(range(len(test_graphs))))
                 print(
@@ -250,8 +250,8 @@ if __name__ == '__main__':
 
                 best_loss = val_loss[0]
                 best_acc = val_loss[1]
-                if test_loss[1] > best_test_metrics[1]:
-                    best_test_metrics = test_loss
+                #if test_loss[1] > best_test_metrics[1]:
+                best_test_metrics = test_loss
                 best_val_metrics = val_loss
 
         with open(cmd_args.data + '_acc_results.txt', 'a+') as f:
@@ -278,7 +278,7 @@ if __name__ == '__main__':
     args = cmd_args
     with open("metrics.txt", "a") as txt_file:
         txt_file.write(f"Dataset: {args.data} \n"
-                       # f"Alpha: {args.alpha}, \n"
+                       f"Sortpooling K: {cmd_args.sortpooling_k}, \n"
                        # f"Mu: {args.mu1}, \n"
                        f"Valid Mean: {round(valid_record.mean().item(), 4)} \n"
                        f"Std Valid Mean: {round(valid_record.std().item(), 4)} \n"

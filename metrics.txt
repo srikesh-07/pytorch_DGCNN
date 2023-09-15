@@ -1,0 +1,260 @@
+Dataset: DD 
+Sortpooling K: 291, 
+Valid Mean: 0.7675 
+Std Valid Mean: 0.0153 
+Test Mean: 0.7477 
+Std Test Mean: 0.0277 
+Head Mean: 0.8497 
+Std Head Mean: 0.0423 
+Medium Mean: 0.6839 
+Std Medium Mean: 0.0472 
+Tail Mean: 0.7105 
+Std Tail Mean: 0.0731 
+
+Dataset: PTC 
+Sortpooling K: 26, 
+Valid Mean: 0.6529 
+Std Valid Mean: 0.0761 
+Test Mean: 0.6 
+Std Test Mean: 0.0639 
+Head Mean: 0.6922 
+Std Head Mean: 0.0753 
+Medium Mean: 0.5753 
+Std Medium Mean: 0.076 
+Tail Mean: 0.5448 
+Std Tail Mean: 0.0938 
+
+Dataset: PROTEINS 
+Sortpooling K: 32, 
+Valid Mean: 0.7009 
+Std Valid Mean: 0.0568 
+Test Mean: 0.6601 
+Std Test Mean: 0.049 
+Head Mean: 0.7526 
+Std Head Mean: 0.0756 
+Medium Mean: 0.6502 
+Std Medium Mean: 0.0411 
+Tail Mean: 0.5853 
+Std Tail Mean: 0.1216 
+
+Dataset: IMDBBINARY 
+Sortpooling K: 31, 
+Valid Mean: 0.706 
+Std Valid Mean: 0.0472 
+Test Mean: 0.657 
+Std Test Mean: 0.0205 
+Head Mean: 0.7407 
+Std Head Mean: 0.0447 
+Medium Mean: 0.605 
+Std Medium Mean: 0.0429 
+Tail Mean: 0.6219 
+Std Tail Mean: 0.0468 
+
+Dataset: FRANK 
+Sortpooling K: 18, 
+Valid Mean: 0.6231 
+Std Valid Mean: 0.0205 
+Test Mean: 0.5896 
+Std Test Mean: 0.0172 
+Head Mean: 0.5875 
+Std Head Mean: 0.037 
+Medium Mean: 0.6135 
+Std Medium Mean: 0.0152 
+Tail Mean: 0.5654 
+Std Tail Mean: 0.0043 
+
+Dataset: DD 
+Sortpooling K: 125, 
+Valid Mean: 0.7675 
+Std Valid Mean: 0.0437 
+Test Mean: 0.7392 
+Std Test Mean: 0.0403 
+Head Mean: 0.8502 
+Std Head Mean: 0.0419 
+Medium Mean: 0.6618 
+Std Medium Mean: 0.0642 
+Tail Mean: 0.7094 
+Std Tail Mean: 0.0665 
+
+Dataset: PROTEINS 
+Sortpooling K: 13, 
+Valid Mean: 0.6144 
+Std Valid Mean: 0.0452 
+Test Mean: 0.6314 
+Std Test Mean: 0.0507 
+Head Mean: 0.7754 
+Std Head Mean: 0.0846 
+Medium Mean: 0.6765 
+Std Medium Mean: 0.0501 
+Tail Mean: 0.4502 
+Std Tail Mean: 0.1766 
+
+Dataset: IMDBBINARY 
+Sortpooling K: 31, 
+Valid Mean: 0.71 
+Std Valid Mean: 0.0515 
+Test Mean: 0.661 
+Std Test Mean: 0.0313 
+Head Mean: 0.7275 
+Std Head Mean: 0.0645 
+Medium Mean: 0.6263 
+Std Medium Mean: 0.0344 
+Tail Mean: 0.6263 
+Std Tail Mean: 0.0499 
+
+Dataset: FRANK 
+Sortpooling K: 25, 
+Valid Mean: 0.624 
+Std Valid Mean: 0.0183 
+Test Mean: 0.5857 
+Std Test Mean: 0.0266 
+Head Mean: 0.5875 
+Std Head Mean: 0.037 
+Medium Mean: 0.614 
+Std Medium Mean: 0.0152 
+Tail Mean: 0.5534 
+Std Tail Mean: 0.0325 
+
+Dataset: DD 
+Sortpooling K: 143, 
+Valid Mean: 0.7795 
+Std Valid Mean: 0.0185 
+Test Mean: 0.757 
+Std Test Mean: 0.016 
+Head Mean: 0.8502 
+Std Head Mean: 0.0419 
+Medium Mean: 0.679 
+Std Medium Mean: 0.0365 
+Tail Mean: 0.7395 
+Std Tail Mean: 0.0248 
+
+Dataset: PROTEINS 
+Sortpooling K: 15, 
+Valid Mean: 0.6505 
+Std Valid Mean: 0.0675 
+Test Mean: 0.6475 
+Std Test Mean: 0.0663 
+Head Mean: 0.7923 
+Std Head Mean: 0.0493 
+Medium Mean: 0.6823 
+Std Medium Mean: 0.0263 
+Tail Mean: 0.4704 
+Std Tail Mean: 0.1986 
+
+Dataset: IMDBBINARY 
+Sortpooling K: 31, 
+Valid Mean: 0.71 
+Std Valid Mean: 0.0495 
+Test Mean: 0.656 
+Std Test Mean: 0.0233 
+Head Mean: 0.7436 
+Std Head Mean: 0.0411 
+Medium Mean: 0.614 
+Std Medium Mean: 0.0427 
+Tail Mean: 0.6075 
+Std Tail Mean: 0.0595 
+
+Dataset: FRANK 
+Sortpooling K: 25, 
+Valid Mean: 0.6249 
+Std Valid Mean: 0.0169 
+Test Mean: 0.5857 
+Std Test Mean: 0.0276 
+Head Mean: 0.5875 
+Std Head Mean: 0.037 
+Medium Mean: 0.6147 
+Std Medium Mean: 0.0154 
+Tail Mean: 0.5531 
+Std Tail Mean: 0.0361 
+
+Dataset: DD 
+Sortpooling K: 160, 
+Valid Mean: 0.7744 
+Std Valid Mean: 0.034 
+Test Mean: 0.7603 
+Std Test Mean: 0.0347 
+Head Mean: 0.8497 
+Std Head Mean: 0.0423 
+Medium Mean: 0.6764 
+Std Medium Mean: 0.0519 
+Tail Mean: 0.7578 
+Std Tail Mean: 0.0635 
+
+Dataset: PROTEINS 
+Sortpooling K: 18, 
+Valid Mean: 0.6829 
+Std Valid Mean: 0.0814 
+Test Mean: 0.6413 
+Std Test Mean: 0.0574 
+Head Mean: 0.7579 
+Std Head Mean: 0.0499 
+Medium Mean: 0.6497 
+Std Medium Mean: 0.0713 
+Tail Mean: 0.5283 
+Std Tail Mean: 0.1795 
+
+Dataset: IMDBBINARY 
+Sortpooling K: 31, 
+Valid Mean: 0.716 
+Std Valid Mean: 0.0378 
+Test Mean: 0.659 
+Std Test Mean: 0.0222 
+Head Mean: 0.7347 
+Std Head Mean: 0.0488 
+Medium Mean: 0.6165 
+Std Medium Mean: 0.0431 
+Tail Mean: 0.6259 
+Std Tail Mean: 0.0435 
+
+Dataset: FRANK 
+Sortpooling K: 25, 
+Valid Mean: 0.6259 
+Std Valid Mean: 0.0166 
+Test Mean: 0.5894 
+Std Test Mean: 0.0212 
+Head Mean: 0.5875 
+Std Head Mean: 0.037 
+Medium Mean: 0.6156 
+Std Medium Mean: 0.0159 
+Tail Mean: 0.5628 
+Std Tail Mean: 0.0155 
+
+Dataset: DD 
+Sortpooling K: 180, 
+Valid Mean: 0.7692 
+Std Valid Mean: 0.027 
+Test Mean: 0.7544 
+Std Test Mean: 0.0226 
+Head Mean: 0.8497 
+Std Head Mean: 0.0423 
+Medium Mean: 0.672 
+Std Medium Mean: 0.03 
+Tail Mean: 0.7398 
+Std Tail Mean: 0.056 
+
+Dataset: PROTEINS 
+Sortpooling K: 20, 
+Valid Mean: 0.6631 
+Std Valid Mean: 0.0717 
+Test Mean: 0.6547 
+Std Test Mean: 0.0422 
+Head Mean: 0.7852 
+Std Head Mean: 0.0759 
+Medium Mean: 0.6779 
+Std Medium Mean: 0.0397 
+Tail Mean: 0.5084 
+Std Tail Mean: 0.1488 
+
+Dataset: IMDBBINARY 
+Sortpooling K: 31, 
+Valid Mean: 0.708 
+Std Valid Mean: 0.0522 
+Test Mean: 0.656 
+Std Test Mean: 0.0248 
+Head Mean: 0.7353 
+Std Head Mean: 0.0482 
+Medium Mean: 0.6143 
+Std Medium Mean: 0.047 
+Tail Mean: 0.6151 
+Std Tail Mean: 0.0312 
+
